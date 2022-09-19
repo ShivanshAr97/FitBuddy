@@ -8,16 +8,16 @@ const Glass = () => {
 
     function plus() {
         setValue(value+1)
-        if (value == 0) {
+        if (value === 0) {
             setIntake("Great work!")
         }
-        if (value == 3) {
+        if (value === 3) {
             setIntake("Half way there!")
         }
-        if (value == 4) {
+        if (value === 4) {
             setIntake("Keep up the good work !!")
         }
-        if (value == 7) {
+        if (value === 7) {
             setIntake("Congratulations on completing 8 glasses of water !!")
         }
     }
@@ -32,7 +32,8 @@ const Glass = () => {
     }
 
   return (
-    <div className='my-16'>
+    <div className='mt-32'>
+        <h1 className='flex justify-center text-3xl font-bold -mt-8 pb-8'>Water Tracker</h1>
     <div className='flex justify-center items-baseline'>
         <p onClick={plus} className='outline-none text-4xl font-bold bg-slate-700 text-white rounded-full flex justify-center items-center h-8 w-8 cursor-pointer'>+</p>
         <p className='bg-blue-400 flex justify-center items-center h-40 w-40 text-white rounded-full p-4'><CgGlassAlt size="100" /></p>

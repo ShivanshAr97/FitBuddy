@@ -5,7 +5,7 @@ import { BiRupee } from 'react-icons/bi';
 const Trainers = (props) => {
   return (
     <>
-    <div className='flex border bg-white border-gray-500 rounded-lg justify-between m-4'>
+    <div className='flex border border-gray-500 rounded-lg justify-between m-4'>
     <div className='m-4'>
     <img className='flex mx-auto rounded-lg object-cover w-32 h-32' src={props.img} alt="" />
     <h1 className='flex justify-center font-bold text-xl p-1'>{props.name}</h1>

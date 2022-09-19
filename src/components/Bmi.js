@@ -21,8 +21,8 @@ const App = () => {
     }
   };
   return (
-    <div className="flex justify-center my-16">
-      <div className="bg-red-400 text-white w-fit px-32 py-8 rounded-lg">
+    <div className="flex justify-center mt-20">
+      <div className="bg-red-400 text-white w-fit px-32 mt-1 py-4 rounded-lg">
         <h1 className=" font-bold text-3xl flex justify-center my-4">BMI Calculator</h1>
         <div className="flex flex-col">
           <div className="w-full bg-white m-2 px-2 py-1 rounded-md placeholder:text-gray-400 text-gray-400 outline-none border-spacing-8">

@@ -9,7 +9,7 @@ import img5 from '../img/person6Img.png'
 
 const Trainer = () => {
   return (
-    <div className='bg-cyan-100'>
+    <div className='bg-cyan-50 mt-16'>
     <h1 className='flex justify-center text-3xl font-bold pt-8'>FitU Shop</h1>
     <div className='flex mx-24 justify-between'>
     <Shops img={img4} name="Name" star="4.7" price="2200" desc='Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo voluptatem consequ untur animi ex' /> 
