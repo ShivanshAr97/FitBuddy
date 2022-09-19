@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const App = () => {
   const [bmi, setBmi] = useState();
@@ -21,7 +22,7 @@ const App = () => {
     }
   };
   return (
-    <div className="flex justify-center mt-20">
+    <div className="flex justify-center bg-cyan-50 pt-20">
       <div className="bg-red-400 text-white w-fit px-32 mt-1 py-4 rounded-lg">
         <h1 className=" font-bold text-3xl flex justify-center my-4">BMI Calculator</h1>
         <div className="flex flex-col">
@@ -54,8 +55,10 @@ const App = () => {
         <h1 className=" text-white font-bold text-lg">Your BMI is: {bmi}</h1>
         <h2>Which means you are <span className="font-bold">{info}!</span></h2>
         <div className=" text-xs mt-4 flex justify-between">
+      <Link to="/">
       <p className=" cursor-pointer -mx-20">&lt; Go back</p>
-      <p className=" cursor-pointer -mx-24">Learn more on BMI &gt;</p>
+      </Link>
+      <p className=" cursor-pointer -mx-24"><a href="https://www.cdc.gov/healthyweight/assessing/bmi/index.html#:~:text=Body%20Mass%20Index%20(BMI)%20is,or%20health%20of%20an%20individual." target="blank">Learn more on BMI &gt;</a></p>
       </div>
       </div>
     </div>

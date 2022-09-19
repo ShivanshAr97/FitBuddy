@@ -5,11 +5,11 @@ import Services from './Services'
 
 const Home = () => {
   return (
-    <>
+    <div className='bg-cyan-50'>
     <Navbar/>
     <Content/>
     <Services/>
-    </>
+    </div>
   )
 }
 

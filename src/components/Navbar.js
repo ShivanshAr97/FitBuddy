@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import workoutImg from '../img/workoutImg.jpg'
+import profileImg from '../img/profileImg.jpg'
 
 const Navbar = () => {
   return (
@@ -27,7 +27,7 @@ const Navbar = () => {
                 <li className='mx-8 cursor-pointer font-semibold'>Shop</li>
                 </Link>
             </ul>
-        <img className='w-12 h-12 rounded-full object-cover mx-4' src={workoutImg} alt="" />
+        <img className='w-12 h-12 rounded-full object-cover mx-4' src={profileImg} alt="" />
         </div>
     </nav>
     </>
