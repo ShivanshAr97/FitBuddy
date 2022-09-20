@@ -16,11 +16,13 @@ import prod12 from '../img/prod12.webp'
 import prod13 from '../img/prod13.webp'
 import prod14 from '../img/prod14.webp'
 import prod15 from '../img/prod15.webp'
+import Navbar from './Navbar'
 
 
 const Trainer = () => {
   return (
     <div className='bg-cyan-50 mt-16'>
+      <Navbar/>
       <h1 className='flex justify-center text-3xl font-bold pt-8 pb-6'>FitBuddy Shop</h1>
       <div className='flex mx-24 justify-between'>
         <Shops img={prod1} name="Dumbbells" star="4.7" price="46,070" desc='Home exercise equipment kit online proffesional' />

@@ -1,8 +1,11 @@
 import React from 'react'
 import workoutImg from '../img/workoutImg.jpg'
+import Navbar from './Navbar'
 
 const Workout = () => {
   return (
+    <div>
+      <Navbar/>
     <div className='bg-cyan-50'>
       <h1 className='font-bold flex justify-center text-3xl pt-24'>Music Corner</h1>
       <div className='flex'>
@@ -13,6 +16,7 @@ const Workout = () => {
           <iframe width="820" height="380" src="https://open.spotify.com/embed/playlist/37i9dQZF1DWUSyphfcc6aL?utm_source=generator" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         </div>
       </div>
+    </div>
     </div>
   )
 }

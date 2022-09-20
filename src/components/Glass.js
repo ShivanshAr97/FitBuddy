@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { CgGlassAlt } from 'react-icons/cg';
+import Navbar from './Navbar';
 
 const Glass = () => {
 
@@ -33,6 +34,7 @@ const Glass = () => {
 
   return (
     <div className='pt-32 bg-cyan-50'>
+        <Navbar/>
         <h1 className='flex justify-center text-3xl font-bold -mt-8 pb-8'>Water Tracker</h1>
     <div className='flex justify-center items-baseline'>
         <p onClick={plus} className='outline-none text-4xl font-bold bg-slate-700 text-white rounded-full flex justify-center items-center h-8 w-8 cursor-pointer'>+</p>

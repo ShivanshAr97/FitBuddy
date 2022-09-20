@@ -8,14 +8,15 @@ import Glass from "./components/Glass";
 import Bmi from "./components/Bmi";
 import Trainer from "./components/Trainer";
 import Shop from "./components/Shop";
-import Navbar from "./components/Navbar";
+import Register from "./components/Register";
 
 function App() {
   return (
     <>
-    <Navbar/>
+
     <Routes>
-        <Route path='/' element={<Home />} />
+        <Route path='/' element={<Register />} />
+        <Route path='/home' element={<Home />} />
         <Route path='/bmi' element={<Bmi />} />
         <Route path='/trainer' element={<Trainer />} />
         <Route path='/shop' element={<Shop />} />

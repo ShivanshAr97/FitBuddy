@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import Navbar from "./Navbar";
 
 const App = () => {
   const [bmi, setBmi] = useState();
@@ -22,6 +23,8 @@ const App = () => {
     }
   };
   return (
+    <>
+      <Navbar/>
     <div className="flex justify-center bg-cyan-50 pt-20">
       <div className="bg-red-400 text-white w-fit px-32 mt-1 py-4 rounded-lg">
         <h1 className=" font-bold text-3xl flex justify-center my-4">BMI Calculator</h1>
@@ -62,6 +65,7 @@ const App = () => {
       </div>
       </div>
     </div>
+    </>
   );
 };
 

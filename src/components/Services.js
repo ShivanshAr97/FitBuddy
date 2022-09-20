@@ -12,20 +12,20 @@ const Services = () => {
         <div className='flex p-12'>
             <div className='w-1/3'>
                 <div className='flex'>
-                    <Link to="/">
-                    <div className='flex m-2  flex-col border w-fit px-5 py-2 cursor-pointer'>
+                    <Link to="/home">
+                    <div className='flex m-2  flex-col border w-fit px-5 py-2 cursor-pointer hover:bg-slate-200'>
                         <IoFastFoodOutline size="44" />
                         <p className='flex justify-center font-bold'>Diet</p>
                     </div>
                     </Link>
                     <Link to="/glass">
-                    <div className='flex m-2  flex-col border w-fit px-4 py-2 cursor-pointer'>
+                    <div className='flex m-2  flex-col border w-fit px-4 py-2 cursor-pointer hover:bg-slate-200'>
                         <CgGlassAlt size="44" />
                         <p className='flex justify-center font-bold'>Water</p>
                     </div>
                     </Link>
                     <Link to="/workout">
-                    <div className='flex m-2  flex-col border w-fit px-5 py-2 cursor-pointer'>
+                    <div className='flex m-2  flex-col border w-fit px-5 py-2 cursor-pointer hover:bg-slate-200'>
                         <HiOutlineMusicNote size="44" />
                         <p className='flex justify-center font-bold'>Music</p>
                     </div>
@@ -34,19 +34,19 @@ const Services = () => {
                 </div>
                 <div className='flex'>
                     <Link to="/trainer">
-                    <div className='flex  m-2 flex-col border w-fit px-4 py-2 cursor-pointer'>
+                    <div className='flex  m-2 flex-col border w-fit px-4 py-2 cursor-pointer hover:bg-slate-200'>
                         <CgGym size="44" />
                         <p className='flex justify-center font-bold'>Trainer</p>
                     </div>
                     </Link>
                     <Link to="/shop">
-                    <div className='flex  m-2 flex-col border w-fit px-4 py-2 cursor-pointer'>
+                    <div className='flex  m-2 flex-col border w-fit px-4 py-2 cursor-pointer hover:bg-slate-200'>
                         <BsShopWindow size="44" />
                         <p className='flex justify-center font-bold'>Shop</p>
                     </div>
                     </Link>
-                    <Link to="/">
-                    <div className='flex  m-2 flex-col border w-fit px-4 py-2 cursor-pointer'>
+                    <Link to="/bmi">
+                    <div className='flex  m-2 flex-col border w-fit px-4 py-2 cursor-pointer hover:bg-slate-200'>
                         <GiWeightScale size="44" />
                         <p className='flex justify-center font-bold'>BMI</p>
                     </div>

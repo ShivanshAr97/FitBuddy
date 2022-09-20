@@ -7,11 +7,13 @@ import img3 from '../img/person4Img.png'
 import img4 from '../img/person5Img.png'
 import img5 from '../img/person6Img.png'
 import img6 from '../img/person7Img.jpg'
+import Navbar from './Navbar'
 
 
 const Trainer = () => {
   return (
     <div className='bg-cyan-50 mt-16'>
+      <Navbar/>
     <h1 className='flex justify-center text-3xl font-bold pt-8'>Trainer List</h1>
     <div className='flex mx-24 justify-between'>
     <Trainers img={img0} name="Asad Hussain" star="4.7" price="1,700" desc='Asad Hussain is touted as one of the youngest fitness trainers in the country. He has been coaching since the past 10 years and over 500 people have benefitted from his short yet strenuous workout routines.' /> 
