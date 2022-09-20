@@ -4,7 +4,7 @@ Fitbuddy is a one stop destination to make you fit. It provides you various opti
 
 # Website link
 
-Deployed on Spheron: https://fitbuddy-a1zztc.spheron.app/
+Deployed on Spheron: https://fitbuddy-a1zztc.spheron.app/ <br/>
 Deployed on Vercel: https://fit-buddy-olive.vercel.app/
 
 # Services
@@ -28,5 +28,5 @@ Deployed on Vercel: https://fit-buddy-olive.vercel.app/
 
 
 <p align="center">
-  Made with ❤ from India by [Shivansh](https://hack.iiitl.ac.in/).
+  Made with ❤ by <a href="https://github.com/ShivanshAr97">Shivansh</a>.
 </p>
