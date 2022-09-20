@@ -1,6 +1,7 @@
 import React from 'react'
-import { AiFillStar } from 'react-icons/ai';
-import { BiRupee } from 'react-icons/bi';
+import { AiFillStar, AiOutlineInstagram } from 'react-icons/ai';
+import { BiRupee, BiCommentDetail } from 'react-icons/bi';
+import { MdContactPage } from 'react-icons/md';
 
 const Trainers = (props) => {
   return (
@@ -14,6 +15,11 @@ const Trainers = (props) => {
         <p className='text-sm flex items-center'><AiFillStar/>{props.star}</p>
     </div>
     <p className='text-sm p-1'>{props.desc}</p>
+    <div className='flex p-2 justify-end w-full'>
+    <p className='mx-2 cursor-pointer'><BiCommentDetail size="24"/></p>
+    <p className=' cursor-pointer'><MdContactPage size="24"/></p>
+    <p className='mx-2 cursor-pointer'><AiOutlineInstagram size="24"/></p>
+    </div>
     {/* <button className='w-full flex justify-end text-xs cursor-pointer hover:underline px-2 py-1'>Know More</button> */}
     </div>
     </div>

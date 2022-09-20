@@ -54,7 +54,7 @@ const Services = () => {
                 </div>
             </div>
             <div className='w-2/3'>
-                <h1 className='m-4 text-2xl font-bold'>Tip for Fit Life</h1>
+                <h1 className='m-4 text-2xl font-bold'>Tip for a Fit Life</h1>
                 <div className='flex'>
                 <ul className='mx-4 text-lg'>
                     <li>1. Eat a healthy diet</li>
